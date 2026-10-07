@@ -730,14 +730,14 @@ body.player-pad .toast{bottom:calc(96px + env(safe-area-inset-bottom,0px))}
       <div class="seal" aria-hidden="true"><svg viewBox="0 0 100 50"><use href="#bat" width="100" height="50"/></svg></div>
       <span class="corner tl" aria-hidden="true"></span><span class="corner tr" aria-hidden="true"></span><span class="corner bl" aria-hidden="true"></span><span class="corner br" aria-hidden="true"></span>
       <h2 class="h2" id="blood-h" data-split data-io>The Bloodline</h2>
-      <p class="decree-sub"><span data-ticker>$DRAKEULA</span> lives inside the world built around the music, the character and October after dark.</p>
+      <p class="decree-sub">The Bloodline lives inside the world built around the music, the character and October after dark.</p>
       <dl class="terms" id="terms"></dl>
       <div class="ca-module">
         <span class="ca-k">Contract</span>
         <code class="ca-v pending" data-ca>Revealed at launch</code>
         <div class="ca-actions" data-live-only hidden>
           <button class="btn btn-ghost" type="button" data-copy>Copy CA</button>
-          <a class="btn btn-blood" href="#" data-trade target="_blank" rel="noopener" hidden><span>Trade <span data-ticker>$DRAKEULA</span></span></a>
+          <a class="btn btn-blood" href="#" data-trade target="_blank" rel="noopener" hidden><span>Trade</span></a>
           <a class="btn btn-ghost" href="#chart" data-view-chart hidden>View chart</a>
         </div>
         <p class="ca-note">Only use the contract address published on this website and our official channels.<span data-live-only hidden> <a class="ca-verify" href="#" data-solscan target="_blank" rel="noopener">Verify on Solscan</a></span></p>
@@ -806,7 +806,7 @@ body.player-pad .toast{bottom:calc(96px + env(safe-area-inset-bottom,0px))}
     <p class="coven-lines">Ten tracks.<br>Thirty-one nights.<br>Then daylight decides what survives.</p>
     <div class="btn-row stack-mobile">
       <button class="btn btn-blood" type="button" data-play-album="final"><svg aria-hidden="true"><use href="#i-play"/></svg><span>Play After Twelve</span></button>
-      <a class="btn btn-ghost" href="#bloodline"><span>Enter <span data-ticker>$DRAKEULA</span></span></a>
+      <a class="btn btn-ghost" href="#bloodline"><span>Enter the Bloodline</span></a>
       <a class="btn btn-ghost" href="#" data-link="telegram" data-track="telegram_click" hidden>Join Telegram</a>
     </div>
   </div>
@@ -823,7 +823,7 @@ body.player-pad .toast{bottom:calc(96px + env(safe-area-inset-bottom,0px))}
     </div>
     <div class="foot-legal">
       <p>DRAKEULA is an unofficial fictional parody-inspired character and project. It is not affiliated with, sponsored by, endorsed by, or connected to Drake, OVO, or any record label.</p>
-      <p><span data-ticker>$DRAKEULA</span> is a memecoin with no promise or expectation of financial return. Always verify official links and contract information.</p>
+      <p>The project includes a Solana memecoin with no promise or expectation of financial return. Always verify official links and contract information.</p>
       <p>© 2026 Drakeula. Toronto after dark.</p>
     </div>
   </div>
@@ -859,7 +859,7 @@ const CONFIG = {
   // shows "Revealed at launch" and no token stats at all.
   token: {
     launched: false,
-    ticker: '$DRAKEULA',
+    ticker: '',
     network: 'Solana',
     ca: '',               // ONE canonical contract address. Every CA on the page reads from here.
     supply: '1,000,000,000', // finalized values show right away; empty rows stay hidden
